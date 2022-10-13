@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Randy Quilala
+EMAIL: rquilala@uci.edu
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome for icons -->
+  <script src="https://kit.fontawesome.com/9a57d1ea22.js" crossorigin="anonymous"></script>
+  <title>Randy's Portfolio</title>
+</head>
+
+<body>
+  <!--
+    Navbar (utilizing an unordered list as the navbar) from tutorial at
+    https://www.w3schools.com/css/css_navbar_horizontal.asp
+  -->
+  <nav class="navbar">
+    <ul class="navlist">
+      <li><a href="#home"><h2 class="nav-header">Home</h2></a></li>
+      <li><a href="#about-me"><h2 class="nav-header">About Me</h2></a></li>
+      <li><a href="#interests"><h2 class="nav-header">Interests</h2></a></li>
+      <li><a href="#contact"><h2 class="nav-header">Contact</h2></a></li>
+    </ul>
+  </nav>
+
+  <!-- 
+    Hero header and following sections inspired by the tutorial at 
+    https://www.freecodecamp.org/news/how-to-create-a-portfolio-website-using-html-css-javascript-and-bootstrap/.
+    I only looked at the hero header portion (about the first 1/5 of the article).
+  -->
+
+  <main>
+    <section class="bgimage section" id="home">
+      <div id="name-header">
+          <h1 class="name">Randy Quilala</h1>
+      </div>
+    </section>
+  
+    <section class="section" id="about-me">
+      <h2 class="section-header">In a Nutshell...</h2>
+      <div class="section-partition">
+        <ul class="ltr">
+          <li><img class="inline-block" src="images/profile.JPG" alt="Profile image of Randy"></li>
+          <li><p class="section-text left inline-block">
+            Hi! I'm Randy Quilala (he/him), a 4th year Computer Science student at the University of California, Irvine. 
+            I've been interested in programming since 2018 and am currently looking into web development.
+          </p></li>
+        </ul>
+      </div>
+      <h2 class="section-header">Born and raised in San Francisco & studying at UCI</h2>
+      <div class="section-partition">
+        <ul class="ltr">
+          <li><img class="inline-block" src="images/San-Francisco-post-it.jpg" alt="Randy holding a Post-it note in front of the Golden Gate Bridge reading 'San Francisco: Home is where the heart is'"></li>
+          <li><img class="inline-block" src="images/Irvine-post-it.jpg" alt="Randy holding a Post-it note in front of UCI's thermal energy storage tank reading 'Irvine: Home is where the heart is'"></li>
+        </ul>
+      </div>
+      <h2 class="section-header">Technical Skills</h2>
+      <div class="section-partition">
+        <ul class="ltr">
+          <li><p class="section-text">Python</p></li>
+          <li><p class="section-text">C/C++</p></li>
+          <li><p class="section-text">x86 Assembly</p></li>
+          <li><p class="section-text">HTML & CSS</p></li>
+          <li><p class="section-text">Operating Systems</p></li>
+          <li><p class="section-text">Machine Learning</p></li>
+        </ul>
+      </div>
+    </section>
+  
+    <section class="section" id="interests">
+      <h2 class="section-header">I Like a Lot of Things</h2>
+      <div class="section-partition">
+        <ul class="ltr">
+          <li><img class="collage" src="images/Dreaming.jpg" alt="Paper craft art of a man on a bed in space"></li>
+          <li><img class="collage" src="images/LOST_MY_MIND.jpg" alt="Paper craft art of text reading 'Lost My Mind'"></li>
+          <li><img class="collage" src="images/Skull.jpg" alt="Paper craft art of a skull with a green rose in its mouth"></li>
+          <li><img class="collage" src="images/I_WANT_BOBA.jpg" alt="Stamp art of a bear in distress with the caption 'I WANT BOBA'"></li>
+        </ul>
+        
+      </div>
+      <p class="section-text center">
+        Some of my hobbies include design and paper craft. I primarily design with Adobe Illustrator, and often 
+        translate my designs into tangible works of art. Simple shapes, attention to detail, and color palettes can go a long way!
+      </p>
+      <h2 class="section-header">I Help Bring People Together</h2>
+      <div class="section-partition">
+        <!-- How to embed Instagram using iframe https://www.picodash.com/instagram/embed -->
+        <ul class="rtl">
+          <li><iframe src="https://www.instagram.com/p/CjOYZiIvyzy/embed"></iframe></li>
+          <li><p class="section-text right inline-block ltr">
+            As one of seven officers in Hiking Club at UCI, I help organize hundreds of our interested members in exploring local trails every weekend.
+            I manage the social media space for the club as well as maintain the underlying code to organize the large groups of students every weekend.
+          </p></li>
+        </ul>
+      </div>
+    </section>
+  
+    <section class="section" id="contact">
+      <h2 class="section-header">Get in Touch</h2>
+      <div class="section-partition">
+        <ul class="ltr">
+          <li><span class="fa-brands fa-instagram fa-2x"></span></li>
+          <li><a class="section-text" href="https://instagram.com/ready.koala">@Ready.Koala</a></li>
+        </ul>
+        <ul class="ltr">
+          <li><span class="fa-regular fa-envelope fa-2x"></span></li>
+          <li class="section-text"><a class="section-text" href="mailto:rquilala@uci.edu">UCI Email</a></li>
+        </ul>
+        <ul class="ltr">
+          <li><span class="fa-regular fa-envelope fa-2x"></span></li>
+          <li><a class="section-text" href="mailto:rsquilala@gmail.com">Personal Email</a></li>
+        </ul>
+        <img src="images/Footer.jpg" id="footer-img" alt="Outline drawing of a cartoon bear in distress">
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
